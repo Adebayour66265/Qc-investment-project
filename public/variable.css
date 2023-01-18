@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Open+Sans&family=Poppins:wght@600&family=Roboto:wght@400;500&display=swap");
+
+:root {
+  /* color */
+  --red-orange-wheel: hsl(15, 100%, 55%);
+  --urtramarine-blue: hsl(217, 100%, 50%);
+  --lavander-blue: hsl(299, 96%, 91%);
+  --oxford-blue: hsl(299, 84%, 12%);
+  --light-gray: hsl(0, 0%, 80%);
+  --sonic-sliver: hsl(0, 0%, 47%);
+  --blue-crayola: hsl(216, 98%, 52%);
+  --cultured: hsl(228, 26%, 96%);
+  --white: hsl(0, 0%, 100%);
+  --dod-blue: hsl(210, 100%, 56%);
+
+  /* typography */
+
+  --fs-1: 38px;
+  --fs-2: 35px;
+  --fs-3: 30px;
+  --fs-4: 22px;
+  --fs-5: 20px;
+  --fs-6: 15px;
+
+  --fw-5: 500;
+  --fw-6: 600;
+  --fw-7: 700;
+  --fw-8: 800;
+  --fw-9: 900;
+
+  /* spacing */
+  --px: 15px;
+  --py: 80px;
+
+  /* others */
+
+  --default-transition: 0.2s ease;
+}

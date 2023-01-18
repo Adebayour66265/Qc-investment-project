@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('includes/head') %>
+
+  <link rel="stylesheet" href="/login.css" />
+
+  <title>Login</title>
+  <body>
+    <main>
+      <h1 class="section-title">Login</h1>
+
+      <div class="grid-item new-p">
+        <div class="wrapper">
+          <form action="/api/users/login" method="POST">
+            <input
+              type="email"
+              placeholder="Enter Email"
+              id="email"
+              name="email"
+            />
+            <input
+              type="password"
+              placeholder="Password"
+              id="password"
+              name="password"
+            />
+
+            <button class="btn btn-primary send-btn">
+              <p class="btn-text">Login</p>
+              <span class="square"></span>
+            </button>
+          </form>
+          <h3>Create an Account <a href="/api/users/signup">Instead </a></h3>
+        </div>
+      </div>
+    </main>
+
+    <%- include('includes/footer') %>
+  </body>
+</html>

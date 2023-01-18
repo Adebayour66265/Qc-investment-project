@@ -1,0 +1,7 @@
+{
+  "env": {
+    "DB_USER": "ade",
+    "DB_PASSWORD": "adebayour",
+    "DB_NAME": "Qc-investment"
+  }
+}

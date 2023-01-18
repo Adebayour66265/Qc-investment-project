@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('includes/head') %>
+<title>Home</title>
+
+  <body>
+    <main>
+      <!-- HOME -->
+      <section class="home">
+        <div class="deco-shape shape-1">
+          <div class="home-left">
+            <p class="section-subtittle">Qc Investment</p>
+
+            <h1 class="main-heading">Edu Center</h1>
+
+            <div class="home-btn-group">
+              <a href="/api/users/login" class="btn btn-primary">
+                <p class="btn-text">Login</p>
+                <span class="square"></span>
+              </a>
+              <a href="/api/users/signup" class="btn btn-secondary">
+                <p class="btn-text">Signup</p>
+                <span class="square"></span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="home-right">
+          <div class="img-box">
+            <img
+              src="/images/logo.png"
+              alt=""
+              class="banner-img"
+            />
+          
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <%- include('includes/footer') %>
+
+  </body>
+</html>
