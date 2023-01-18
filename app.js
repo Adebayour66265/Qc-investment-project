@@ -60,7 +60,7 @@ let port = 5000;
 
 
 
-mongoosh.connect('mongodb://localhost:27017/Qc-investment').then(() => {
+mongoosh.connect(process.env.MongodbUrl).then(() => {
     app.listen(process.env.PORT || port, () => {
         console.log(`Server connected ${port}`);
     })
