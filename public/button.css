@@ -1,0 +1,41 @@
+/* botton */
+.btn {
+    position: relative;
+    font-family: "Roboto", sans-serif;
+    font-size: var(--fs-6);
+    font-weight: var(--fw-7);
+    border-radius: 8px;
+    color: var(--white);
+    padding: 20px 30px;
+    text-transform: uppercase;
+    overflow: hidden;
+  }
+  .btn .btn-text {
+    position: relative;
+    z-index: 5;
+  }
+  .btn-primary,
+  .btn-secondary .square {
+    background: var(--dod-blue);
+  }
+  .btn .square {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    transition: var(--default-transition);
+  }
+ 
+ 
+  .btn:hover .square {
+    right: -2px;
+    width: 102%;
+    height: 102%;
+  }
+  .btn-primary .square, .btn-secondary {
+    background: var(--oxford-blue);
+  }
+  
