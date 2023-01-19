@@ -2,7 +2,7 @@
 const path = require('path');
 const express = require('express');
 const bodyParser = require('body-parser');
-const mongoosh = require('mongoose');
+const mongoose = require('mongoose');
 require('dotenv').config();
 
 const pagesRoutes = require('./routes/pages.routes');
@@ -60,7 +60,7 @@ let port = 5000;
 
 
 
-mongoosh.connect(process.env.MongodbUrl).then(() => {
+mongoose.connect(process.env.MongodbUrl).then(() => {
     app.listen(process.env.PORT || port, () => {
         console.log(`Server connected ${port}`);
     })
